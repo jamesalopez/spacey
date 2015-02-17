@@ -3,6 +3,10 @@
     "version": "0.0.1",
     "description": "A lightweight cms built on expressjs and mongoose.",
     "author": "James Lopez",
+    "repository": {
+        "type": "git",
+        "url": "https://jamesalopez@github.com/jamesalopez/spacey.git"
+    },
     "scripts": {
     "start": "node index.js"
     },
