@@ -7,6 +7,10 @@
         "type": "git",
         "url": "https://jamesalopez@github.com/jamesalopez/spacey.git"
     },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo "Error: no test specified" && exit 1"
+    },
     "dependencies": {
         "express": "^4.11.2",
         "jade": "^1.9.2"
