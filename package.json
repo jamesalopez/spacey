@@ -1,5 +1,5 @@
 {
-    "name": "spacycms",
+    "name": "spacey",
     "version": "0.0.1",
     "description": "A lightweight cms built on expressjs and mongoose.",
     "author": "James Lopez",
@@ -8,7 +8,7 @@
         "url": "https://jamesalopez@github.com/jamesalopez/spacey.git"
     },
     "scripts": {
-    "start": "node index.js"
+        "start": "node index.js"
     },
     "dependencies": {
         "express": "^4.11.2",
