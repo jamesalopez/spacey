@@ -1,2 +1,3 @@
-# spacey
-Lightweight CMS built using NodeJS.
+# spacey 
+
+Is a Lightweight CMS built using NodeJS
