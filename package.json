@@ -7,9 +7,6 @@
         "type": "git",
         "url": "https://jamesalopez@github.com/jamesalopez/spacey.git"
     },
-    "scripts": {
-        "start": "node index.js"
-    },
     "dependencies": {
         "express": "^4.11.2",
         "jade": "^1.9.2"
