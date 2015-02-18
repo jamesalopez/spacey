@@ -1,1 +1,1 @@
-module.exports = require('./lib/spacycms');
+module.exports = require('./lib/spacey');
