@@ -1,6 +1,6 @@
 {
     "name": "spacey",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A lightweight cms built on expressjs and mongoose.",
     "author": "James Lopez",
     "repository": {
