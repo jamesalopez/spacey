@@ -5,9 +5,9 @@ var spacey = require('./../index');
 /**
  * Start Spacey Application
  */
-spacey.express.get('/', function(req, res){
-    res.render( 'index', { title: 'Hey', message: 'Theme Index!'});
-});
+// spacey.express.get('/', function(req, res){
+//     res.render( 'index', { title: 'Hey', message: 'Theme Index!'});
+// });
 
 
 /**
