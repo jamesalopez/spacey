@@ -1,6 +1,6 @@
 {
   "name": "spacey",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lightweight cms built on expressjs and mongoose.",
   "author": {
     "name": "James Lopez"
@@ -21,11 +21,12 @@
     "connect-inject": "^0.3.2",
     "express": "^4.11.2",
     "jade": "^1.9.2",
+    "minimist": "^1.1.0",
     "node-sass": "^2.0.1",
     "node-sass-middleware": "^0.5.0"
   },
-  "bin" : {
-    "spacey" : "./bin/spacey.js"
+  "bin": {
+    "spacey": "./bin/spacey.js"
   },
   "readme": "# spacey \n\nIs a Lightweight CMS built using NodeJS\n",
   "readmeFilename": "README.md",
@@ -34,7 +35,7 @@
     "url": "https://github.com/jamesalopez/spacey/issues"
   },
   "homepage": "https://github.com/jamesalopez/spacey",
-  "_id": "spacey@0.0.1",
-  "_shasum": "483ad7d34e14344d09b2fd68bc88475c99692c7a",
+  "_id": "spacey@0.0.3",
+  "_shasum": "eca35d87cea25c0499e6ed0861e7d30d2537f890",
   "_from": "spacey@"
 }

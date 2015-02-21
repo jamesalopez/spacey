@@ -1,17 +1,31 @@
 #!/usr/bin/env node
 
 var spacey = require('./../index');
+var argv = require('minimist')(process.argv.slice(2));
 
-/**
- * Start Spacey Application
- */
-// spacey.express.get('/', function(req, res){
-//     res.render( 'index', { title: 'Hey', message: 'Theme Index!'});
-// });
+var options = {
+  port: argv.port || process.env.PORT || 9090
+};
 
 
-/**
- * Start Spacey Application
- */
+// check if any arguments given
+if(argv._.length){
+	
+	if( argv._[0] == 'bundle'){
+		console.log('bundling spacey application...')
+	}
+}
 
-spacey.start();
+else {
+
+
+	console.log('Starting Server...');
+
+	/**
+	 * In Development Mode
+	 */
+
+	spacey.start(options.port);
+
+	console.log('Running at http://localhost:' + options.port);
+}
