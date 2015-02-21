@@ -1,22 +1,40 @@
 {
-    "name": "spacey",
-    "version": "0.0.2",
-    "description": "A lightweight cms built on expressjs and mongoose.",
-    "author": "James Lopez",
-    "repository": {
-        "type": "git",
-        "url": "https://jamesalopez@github.com/jamesalopez/spacey.git"
-    },
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"test\""
-    },
-    "keywords": [
-        "spacey",
-        "cms"
-    ],
-    "dependencies": {
-        "express": "^4.11.2",
-        "jade": "^1.9.2"
-    }
+  "name": "spacey",
+  "version": "0.0.3",
+  "description": "A lightweight cms built on expressjs and mongoose.",
+  "author": {
+    "name": "James Lopez"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jamesalopez@github.com/jamesalopez/spacey.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "keywords": [
+    "spacey",
+    "cms"
+  ],
+  "dependencies": {
+    "connect-inject": "^0.3.2",
+    "express": "^4.11.2",
+    "jade": "^1.9.2",
+    "node-sass": "^2.0.1",
+    "node-sass-middleware": "^0.5.0"
+  },
+  "bin" : {
+    "spacey" : "./bin/spacey.js"
+  },
+  "readme": "# spacey \n\nIs a Lightweight CMS built using NodeJS\n",
+  "readmeFilename": "README.md",
+  "gitHead": "d4c7087db7439dbf53b2e568990e4e4269b2e0b2",
+  "bugs": {
+    "url": "https://github.com/jamesalopez/spacey/issues"
+  },
+  "homepage": "https://github.com/jamesalopez/spacey",
+  "_id": "spacey@0.0.1",
+  "_shasum": "483ad7d34e14344d09b2fd68bc88475c99692c7a",
+  "_from": "spacey@"
 }
